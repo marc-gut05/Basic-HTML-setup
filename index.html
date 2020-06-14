@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    //writing cohesive, consice and informational meta data is a way to make great first impressions with your potential audience 
+      
+    <title>My test page</title>
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+      <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Basic HTML Things</h1>
+      <h2>HTML Setup</h2>
+         <img src="Pictures/Basic%20HTML%20Setup.PNG" width="400">
+      
+      <h2>Metadata</h2>
+      
+        <p>Basic data related to the webpage that is important to character encoding, authorship, search engines, browser cosmetics, and rich communication.</p>
+      
+         <h3>Character Encoding</h3>
+            <p>A character encoding is another way of saying the character set that the document is permitted to use. This is specified so that the browser can properly display all the characters in the written elements. For example, with character encoding <strong>utf-8</strong> the browser can properly display most languages in their proper form. However, with encoding <strong>ISO-8859-1</strong>, which is the encoding to display the latin alphabet, japanese characters will not be displayed.</p>
+      
+            <img class="giveBorder" src="Pictures/Japanese%20Example.PNG" width="500">
+            <p>The example above shows japanese characters with character encoding <strong>utf-8</strong>. While the example below shows the same text within the code, but with encoding <strong>ISO-8859-1</strong>.</p>
+            <img src="Pictures/Japanese%20Example%20Wrong.PNG" width="500">
+            <p>Here is how to implement the character encoding in your document.</p>
+            <img src="Pictures/Chacter%20encoding%20setup.PNG" width="200" height="33">
+      
+         <h3>Authors and Descriptions</h3>
+      
+           <p>There are many meta elements, but two important elements are <strong>name</strong> and <strong>content</strong>.<br><br> Using <strong>name</strong> specifies the type of element while <strong>content</strong> identifies what is in the element. Here is an example of how we can include the author's name in the metadata.</p>
+      
+           <img src="Pictures/Meta%20author.PNG" width="300px">
+      
+           <p>Here, the code is begun with &lt;meta&gt; following by <strong>name</strong>, and finally <em>author</em>, which identifies what type of name the <strong>content</strong> belongs to.<br><br>
+           Here is another example:</p>
+           <img src="Pictures/Meta%20description.PNG" width="600">
+      
+       <h3>Metadata used by search engines</h3>
+      
+           <p>The same metadata written previosuly is also used by search engines to guide peoples searches to relevent sites by skimming the meta data for word matches. Here is an example of the metadata for MDN being pulled in reference to a search.</p>
+           <img src="Pictures/Search%20enginge%20example.PNG" width="500">
+      <h3>Open Graph Data</h3>
+          <p>Open Graph Data is a metadata protocal created by Facebook to order and provide richer metadata for websites. This protocal takes an image, description and title to display links in a more robust way over their platform. Notice how in this protocal the element is <strong>property</strong> and not <strong>name</strong>, while the <strong>content</strong> is the same.</p>
+          <img src="Pictures/Open%20Data%20Protocal%20example.PNG" width="800">
+          <p>Here is how the meta data would represent itself on their platform.</p>
+          <img src="Pictures/ODP%20Visual%20example.PNG" width="400">
+  </body>
+</html>
